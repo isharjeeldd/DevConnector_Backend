@@ -1,0 +1,34 @@
+{
+  "name": "devconnector-2.0",
+  "version": "1.0.0",
+  "description": "Social Network",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "vercel-build": "echo hehe"
+  },
+  "author": "Muhammad Sharjeel",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^2.15.6",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
